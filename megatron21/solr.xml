@@ -30,7 +30,7 @@
 
   <solrcloud>
 
-    <str name="host">${host:}</str>
+    <str name="host">192.168.1.101</str>
     <int name="hostPort">${jetty.port:8983}</int>
     <str name="hostContext">${hostContext:solr}</str>
 
